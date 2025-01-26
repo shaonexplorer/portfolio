@@ -101,7 +101,7 @@ function Contact() {
             {/* col 02 */}
             <div className="w-full flex flex-col gap-[15px]">
               <label>
-                <h1 className="text-white mb-4 font-medium">Your Email</h1>
+                <h1 className="text-white mb-4 font-medium">Your Message</h1>
                 <textarea
                   type="text"
                   name="message"
