@@ -35,7 +35,7 @@ function ProjectCard({ item }) {
           <h1 className="text-white font-bold text-[24px]">{item.name}</h1>
           <p className="mt-2 text-secondary text-[14px]">{item.description}</p>
         </div>
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-auto flex flex-wrap gap-2">
           {item.tags.map((tag, index) => (
             <p
               className={`text-[14px] ${tag.color}`}
