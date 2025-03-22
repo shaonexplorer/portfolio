@@ -1,10 +1,7 @@
-// import carrent from "./assets/projects/carrent.png";
-// import jobit from "./assets/projects/jobit.png";
-// import tripguide from "./assets/projects/tripguide.png";
 import bookShop from "./assets/projects/book_shop.jpg";
 import doctor from "./assets/projects/doctor-appointment.png";
-
 import game from "./assets/projects/game.png";
+import spotifyClone from "./assets/projects/spotify-clone.png";
 
 export const projectsDetails = [
   {
@@ -54,6 +51,29 @@ export const projectsDetails = [
     image: doctor,
     source_code_link: "https://github.com/shaonexplorer/doctor-appointment",
     website_link: "https://doctor-appointment-six-pied.vercel.app/",
+  },
+  {
+    name: "Music App",
+    description:
+      "A spotify clone built in next js. redux is used for state management. search, play, pause  functionalities are included.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: spotifyClone,
+    source_code_link: "https://github.com/shaonexplorer/spotify-clone",
+    website_link: "https://spotify-clone-seven-beige.vercel.app/",
   },
   {
     name: "Guessing word game",

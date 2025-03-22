@@ -14,7 +14,7 @@ function Projects() {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </p>
-        <div className="mt-[40px] flex flex-col sm:flex-row gap-7">
+        <div className="mt-[40px] sm:w-[1140px] mx-auto flex-wrap flex flex-col justify-center sm:flex-row gap-7">
           {projectsDetails.map((item) => (
             <ProjectCard key={item.name} item={item} />
           ))}
