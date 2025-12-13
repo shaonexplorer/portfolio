@@ -2,8 +2,44 @@ import bookShop from "./assets/projects/book_shop.jpg";
 import doctor from "./assets/projects/doctor-appointment.png";
 import game from "./assets/projects/game.png";
 import spotifyClone from "./assets/projects/spotify-clone.png";
+import ecom from "./assets/projects/e-com.jpg";
 
 export const projectsDetails = [
+  {
+    name: "Full Stack E Commerce Application",
+    description:
+      "secure user authentication using JWT. Form validation using zod/react-hook form. payment system with stripe. PDF invoice.Dashboard with tan-stack table.",
+    tags: [
+      {
+        name: "next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecom,
+    source_code_link:
+      "https://github.com/shaonexplorer/e-commerce-app-front-end",
+    website_link: "https://e-commerce-app-front-end-psi.vercel.app/",
+  },
   {
     name: "Book Shop",
     description:

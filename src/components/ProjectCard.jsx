@@ -5,7 +5,7 @@ import { FaLink } from "react-icons/fa";
 function ProjectCard({ item }) {
   return (
     <Tilt options={{ max: 45, scale: 1, speed: 450 }}>
-      <div className="w-[360px] h-[455px] rounded-2xl bg-tertiary p-5 flex flex-col ">
+      <div className="w-[360px] h-[500px] rounded-2xl bg-tertiary p-5 flex flex-col ">
         <div className="relative w-full h-[230px]">
           {/* website link */}
           <div
@@ -28,14 +28,14 @@ function ProjectCard({ item }) {
           {/* website image */}
           <img
             src={item.image}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-fill rounded-2xl"
           ></img>
         </div>
         <div className="mt-5 flex flex-col ">
           <h1 className="text-white font-bold text-[24px]">{item.name}</h1>
           <p className="mt-2 text-secondary text-[14px]">{item.description}</p>
         </div>
-        <div className="mt-auto flex flex-wrap gap-2">
+        <div className="mt-auto flex flex-wrap  ">
           {item.tags.map((tag, index) => (
             <p
               className={`text-[14px] ${tag.color}`}
