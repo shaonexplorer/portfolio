@@ -1,5 +1,5 @@
 import bookShop from "./assets/projects/book_shop.jpg";
-import doctor from "./assets/projects/doctor-appointment.png";
+// import doctor from "./assets/projects/doctor-appointment.png";
 import game from "./assets/projects/game.png";
 import spotifyClone from "./assets/projects/spotify-clone.png";
 import ecom from "./assets/projects/e-com.jpg";
@@ -66,28 +66,28 @@ export const projectsDetails = [
     source_code_link: "https://github.com/shaonexplorer/book-store",
     website_link: "https://calm-maamoul-d1af45.netlify.app/",
   },
-  {
-    name: "Doctor Appointment App",
-    description:
-      "This is a full stack app which features form validation, admin page with data table which includes search, filter, modify and pagination features.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: doctor,
-    source_code_link: "https://github.com/shaonexplorer/doctor-appointment",
-    website_link: "https://doctor-appointment-six-pied.vercel.app/",
-  },
+  // {
+  //   name: "Doctor Appointment App",
+  //   description:
+  //     "This is a full stack app which features form validation, admin page with data table which includes search, filter, modify and pagination features.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: doctor,
+  //   source_code_link: "https://github.com/shaonexplorer/doctor-appointment",
+  //   website_link: "https://doctor-appointment-six-pied.vercel.app/",
+  // },
   {
     name: "Music App",
     description:
